@@ -7,5 +7,6 @@ This is a project made for personal purposes.
 - Next Middleware
 - TailwindCSS
 - Spotify dev API
+- Recoil State Management
 
 # Deploy
