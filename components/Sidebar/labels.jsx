@@ -6,8 +6,14 @@ import {
   HeartIcon,
   RssIcon,
 } from "@heroicons/react/outline"
+import { signOut } from "next-auth/react"
 
 export const sideBarBtnsGroup1 = [
+  {
+    label: "LogOut",
+    icon: <HomeIcon className="h-5 w-5" />,
+    onClick: () => signOut()
+  },
   {
     label: "Home",
     icon: <HomeIcon className="h-5 w-5" />,
