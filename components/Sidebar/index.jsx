@@ -6,7 +6,7 @@ function Sidebar() {
   const { data: session, status } = useSession()
 
   return (
-    <div className="text-gray-500 p-5 text-sm border-r border-gray-900 overflow-y-scroll h-screen">
+    <div className="text-gray-500 p-5 text-sm border-r border-gray-900 overflow-y-scroll scrollbar-hide h-screen">
       <div className="space-y-4">
         {sideBarBtnsGroup1.map((btn, idx) => (
           <button
